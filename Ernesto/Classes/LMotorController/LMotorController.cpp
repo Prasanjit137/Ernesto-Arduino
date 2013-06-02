@@ -38,7 +38,7 @@ void LMotorController::move(int leftSpeed, int rightSpeed, int minAbsSpeed)
     }
     
     int realRightSpeed = map(abs(rightSpeed), 0, 255, minAbsSpeed, 255);
-
+    
     if (leftSpeed < 0)
     {
         leftSpeed = min(leftSpeed, -1*minAbsSpeed);
@@ -120,7 +120,7 @@ void LMotorController::turnLeft(int speed, bool kick)
     {
         analogWrite(_ena, 255);
         analogWrite(_enb, 255);
-    
+        
         delay(100);
     }
     
@@ -135,12 +135,12 @@ void LMotorController::turnRight(int speed, bool kick)
     digitalWrite(_in2, HIGH);
     digitalWrite(_in3, HIGH);
     digitalWrite(_in4, LOW);
- 
+    
     if (kick)
     {
         analogWrite(_ena, 255);
         analogWrite(_enb, 255);
-    
+        
         delay(100);
     }
     
