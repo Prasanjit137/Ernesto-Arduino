@@ -1,0 +1,13 @@
+	
+	embedXcode
+	----------------------------------
+	Embedded Computing on Xcode 4
+	
+	
+	© Rei VILO, 2010-2013
+	CC = BY NC SA	
+	http://embedXcode.weebly.com/
+	
+	
+embedXcode • May 10, 2013 release 49 • Improved code-sense for core libraries	
+	
