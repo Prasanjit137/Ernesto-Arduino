@@ -10,8 +10,8 @@ void moveLoop();
 void remoteControlLoop();
 
 
-int forwardSpeed = 200;
-int turningSpeed = 120;
+int forwardSpeed = 160;
+int turningSpeed = 100;
 
 
 //BLUETOOTH
